@@ -85,6 +85,9 @@ ENV/
 # Django Python Module
 django/
 
+# SQLite3 DB
+db.sqlite3
+
 # Spyder project settings
 .spyderproject
 
