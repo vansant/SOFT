@@ -2,6 +2,9 @@
 Style on the Fly 
 
 
+# Install required Python Modules
+## $./pip install requirements.txt
+
 # Run tests from root directory
 ## $./python tests.py
 
