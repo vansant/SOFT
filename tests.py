@@ -15,6 +15,7 @@ class TestIfDependenciesImport(unittest.TestCase):
     def test_for_dependencies(self):
         self.assertTrue(test_module_import('os') is True, "{} not installed correctly".format('os'))
         self.assertTrue(test_module_import('zipfile') is True, "{} not installed correctly".format('zipfile'))
+        self.assertTrue(test_module_import('django') is True, "{} not installed correctly".format('django'))
 
 
 if __name__ == '__main__':
