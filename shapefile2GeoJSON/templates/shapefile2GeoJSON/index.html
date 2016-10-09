@@ -4,6 +4,14 @@
         <title>{{site_title}}</title>
     </head>
     <body>
-      <h1>Index</h1>
+      	<h1>Upload a zipped shapefile</h1>
+		<form action="/shapefile2GeoJSON/upload/" enctype="multipart/form-data" method="post" > {% csrf_token %}
+			<p>
+				<input type="file" name="file">
+			</p>
+			<div>
+				<input type="submit" value="Send">
+			</div>
+		</form>
     </body>
 </html>

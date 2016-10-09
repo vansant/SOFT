@@ -85,6 +85,12 @@ ENV/
 # Django Python Module
 django/
 
+# static files
+static/
+
+# pyshp Python Module
+shapefile.py
+
 # SQLite3 DB
 db.sqlite3
 

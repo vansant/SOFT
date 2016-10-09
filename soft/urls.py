@@ -19,5 +19,6 @@ import shapefile2GeoJSON.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^shapefile2GeoJSON/', shapefile2GeoJSON.views.index),
+    url(r'^shapefile2GeoJSON/$', shapefile2GeoJSON.views.index),
+    url(r'^shapefile2GeoJSON/upload/', shapefile2GeoJSON.views.upload_file),
 ]
